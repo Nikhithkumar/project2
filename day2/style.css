@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(110, 148, 208);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+
+.form-control-bal {
+    margin-right: 50px;
+    width: 200px;
+}
+
+#Countries {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+
+
+}
+
+.country-show {
+    background-color: rgb(237, 235, 234);
+    width: 320px;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.country-show:hover {
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.country-show img {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    object-fit: cover;
+    padding: 10px
+}
+
+.country-show h3 {
+    text-align: center;
+    margin: 12px;
+    font-weight: bold;
+    color: rgb(21,34,43);
+}
+
+.country-show p {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+
+}
+.country-show a{
+    
+    font-weight: bold;
+    margin:120px;
+}
